@@ -198,7 +198,7 @@ include __DIR__ . '/includes/header.php';
 <section class="sub-banner" style="padding:64px 24px;">
     <div style="max-width:600px;margin:0 auto;">
         <p style="font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#93C5FD;margin-bottom:12px;">Sin complicaciones</p>
-        <h2 style="font-family:'Playfair Display',serif;font-size:clamp(26px,3.5vw,40px);margin-bottom:14px;">Todo el catálogo por <em style="color:#93C5FD;font-style:normal;">$1 al mes</em></h2>
+        <h2 style="font-family:'Playfair Display',serif;font-size:clamp(26px,3.5vw,40px);margin-bottom:14px;">Todo el catálogo por <em style="color:#93C5FD;font-style:normal;">$1,99 al mes</em></h2>
         <p style="color:#CBD5E1;font-size:16px;max-width:440px;margin:0 auto 32px;line-height:1.7;">Una sola suscripción. Acceso ilimitado. Cancelá cuando quieras.</p>
         <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:20px;">
             <?php foreach(['📚 Catálogo completo','📱 Todos los dispositivos','🔖 Historial guardado','🚫 Sin cargos extra'] as $item): ?>
@@ -206,7 +206,7 @@ include __DIR__ . '/includes/header.php';
             <?php endforeach; ?>
         </div>
         <a href="<?= APP_URL ?>/pages/suscripcion.php" class="hero-btn-primary" style="display:inline-flex;align-items:center;gap:8px;font-size:16px;padding:14px 36px;">
-            Suscribirme — $1/mes
+            Suscribirme — $1,99/mes
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
     </div>
