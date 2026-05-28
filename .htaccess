@@ -1,0 +1,9 @@
+Options -Indexes
+
+# Redirigir index.php a la raíz para evitar duplicados
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /index\.php [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Si acceden a / servir index.php
+DirectoryIndex index.php
